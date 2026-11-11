@@ -1,0 +1,24 @@
+{
+  "schema_version": 2,
+  "plugins": [
+    {
+      "id": "g49pwn",
+      "name": "G49 Test Plugin",
+      "description": "g49 test",
+      "author": "g49",
+      "version": "1.0.0",
+      "install": {
+        "type": "direct",
+        "artifacts": [
+          {
+            "goos": "linux",
+            "goarch": "amd64",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/oxtiger/g49-assets-c66a9646/main/p.so",
+            "sha256": "8c4709b5a4c1b2fe305a2c8110e24640aee1fb2c1d43129c0647404a93a4a286",
+            "size": 14176
+          }
+        ]
+      }
+    }
+  ]
+}
